@@ -1,2 +1,3 @@
-# return_power
- Data and codes for return power
+# The Return Power of Stock Analyst Report: Definition, Factor and Strategy
+
+This repository contains the data and codes for the paper entitled "The Return Power of Stock Analyst Report: Definition, Factor and Strategy". 
