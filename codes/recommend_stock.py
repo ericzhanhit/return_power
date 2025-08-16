@@ -10,13 +10,13 @@ date_pre2years = (pd.to_datetime(current_trading_date) - pd.DateOffset(years=2))
 date_pre1years = (pd.to_datetime(current_trading_date) - pd.DateOffset(years=1)).strftime('%Y-%m-%d')
 date_prehalfyears = (pd.to_datetime(current_trading_date) - pd.DateOffset(months=6)).strftime('%Y-%m-%d')
 # 因子库文件路径
-library_path = '/Users/wednesday/Documents/0科研/个人研究/0哈工大_独立科研项目/1研报项目/Stock_recommend/library/'
+library_path = '～/Stock_recommend/library/'
 # 更新数据文件路径
-downloads_path = '/Users/wednesday/Documents/0科研/个人研究/0哈工大_独立科研项目/1研报项目/Stock_recommend/downloads/'
+downloads_path = '～/Stock_recommend/downloads/'
 # 计算好的数据文件路径
-processed_path = '/Users/wednesday/Documents/0科研/个人研究/0哈工大_独立科研项目/1研报项目/Stock_recommend/processed/'
+processed_path = '～/Stock_recommend/processed/'
 # 输出预测结果文件路径
-recommend_path = '/Users/wednesday/Documents/0科研/个人研究/0哈工大_独立科研项目/1研报项目/Stock_recommend/recommendations/'
+recommend_path = '～/Stock_recommend/recommendations/'
 
 # 导入report_data_combined,若已导入可不需要重复导入
 #report_data_combined = pd.read_excel(library_path+'report_data_combined.xlsx')
