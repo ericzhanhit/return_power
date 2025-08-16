@@ -6,11 +6,11 @@ date = '2023-03-31'
 update_month = '2023-04'
 compute_month = '2023-03'
 # 因子库文件路径
-library_path = '/Users/wednesday/Documents/0科研/个人研究/0哈工大_独立科研项目/1研报项目/Stock_recommend/library/'
+library_path = '～/Stock_recommend/library/'
 # 更新数据文件路径
-downloads_path = '/Users/wednesday/Documents/0科研/个人研究/0哈工大_独立科研项目/1研报项目/Stock_recommend/downloads/'
+downloads_path = '～/Stock_recommend/downloads/'
 # 计算好的数据文件路径
-processed_path = '/Users/wednesday/Documents/0科研/个人研究/0哈工大_独立科研项目/1研报项目/Stock_recommend/processed/'
+processed_path = '～/Stock_recommend/processed/'
 
 # 每月更新broker_status之前，需要将前一个月的所有研报都更新到report_data_combined中
 # 更新到report_data_combined之后，report_data_combined可以不用导出，因为因变量尚无法更新
