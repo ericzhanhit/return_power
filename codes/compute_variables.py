@@ -5,16 +5,16 @@ import datetime
 from functions import extract_stk, check_broker, cal_past_performance, check_broker_size, check_star_analyst, check_advanced_index, check_analyst_coverage, check_five_factor, process_industry, clean_overlap_report
 
 # 需要更新的数据
-# 昨交易日，将今天下载研报包含昨天3点前发布的部分删除
+# 昨交易日，将当天下载研报包含昨天3点前发布的部分删除
 last_trading_date = '2023-04-27'
 # 当天交易日
 current_trading_date = '2023-04-28'
 # 因子库文件路径
-library_path = '/Users/wednesday/Documents/0科研/个人研究/0哈工大_独立科研项目/1研报项目/Stock_recommend/library/'
+library_path = '~/Stock_recommend/library/'
 # 更新数据文件路径
-downloads_path = '/Users/wednesday/Documents/0科研/个人研究/0哈工大_独立科研项目/1研报项目/Stock_recommend/downloads/'
+downloads_path = '~/Stock_recommend/downloads/'
 # 计算好的数据文件路径
-processed_path = '/Users/wednesday/Documents/0科研/个人研究/0哈工大_独立科研项目/1研报项目/Stock_recommend/processed/'
+processed_path = '~/Stock_recommend/processed/'
 
 # 导入研报数据和所有因子库
 #report_data_combined = pd.read_excel(library_path+'report_data_combined.xlsx')
